@@ -1,0 +1,326 @@
+/**navbar**/
+* {
+    margin: 0;
+    font-family: arial;
+    border: border-box;
+}
+.navbar{
+    height: 60px;
+    background-color: #e6e6e6;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: #262626;
+    height: 48px;
+}
+
+.nav-logo{
+    background-image: url("logo.png");
+    background-size: contain;
+    height: 50px;
+    width: 15%;
+    
+}
+.nav-1{
+    margin-right: 5%;
+}
+.nav-1 a{
+    margin-right: 1rem;
+}
+.nav-1 a:hover{
+    text-decoration: underline solid 2px #262626;
+}
+i{
+    height: 5px;
+    display: flex;
+    align-items: center;
+    padding-left: 0.5rem;
+    padding-right: 1rem;
+    justify-content: center;
+    padding-bottom: 0.8rem;
+}
+.nav-3{
+    display: flex;
+}
+.space{
+    margin-right: 1rem;
+    border: none;
+}
+select{
+    background-color: #e6e6e6;
+    border: none;
+    width: 100px;
+}
+.search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cart{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+.sign{
+    display: flex;
+        justify-content: center;
+        align-items: center;
+}
+
+/**Hero section**/
+.hero-section{
+    height: 500px;
+    position: relative;
+    width: 100%;
+}
+.hero-pic{
+    background-image: url("Highlight-M365-Icon-Bounce_VP5-1920x600.avif");
+    height: 500px;
+    background-size: cover;
+    display: block;
+    width: 100%;
+}
+.hero-text{
+    position: absolute;
+    top: 50%;
+    left: 2.5%;
+}
+h1{
+    font-size: 1.85rem;
+}
+p{
+    width: 60%;
+    font-size: 1rem;
+    padding-top: 20px;
+    text-wrap: wrap;
+    padding-bottom: 20px;
+}
+button{
+    height: 40px;
+    background-color: #0067b8;
+    color: #fff;
+}
+/**below**/
+.icons{
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+}
+
+/**last**/
+.last{
+    height: 200px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.in1 i{
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.in1 a{
+    margin-top: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/**main img**/
+.images{
+    height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 5px;
+    margin-left: 20px;
+}
+.box1{
+    height: auto;
+    margin-right: 20px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid #ddd;
+    box-shadow: 4px 4px 10px rgba(0,0,0,0.2);
+    }
+.img1{
+    background-size: cover;
+    height: 200px;
+    width: 350px;
+}
+.box1 h2{
+    color: #000;
+    padding-left: 1rem;
+    padding-top: 2rem;
+}
+.box1 p{
+    padding-left: 1rem;
+    padding-top: 2rem;
+    width: 90%;
+    text-wrap: wrap;
+}
+.box1 button{
+    margin-top:auto ;
+    width: 50%;
+    margin-left: 1rem;
+    margin-bottom: 2rem;
+    border: none;
+ }
+.black-box{
+    margin: 50px;
+    height: 500px;
+    position: relative;
+    width: 90%;
+
+}
+.black-img{
+    background-image: url("Highlight-Game-Pass-Update-September-2024_VP5-1596x600.avif");
+    background-size: cover;
+    height: 500px;
+    display: block;
+    width: 100%;
+}
+.black-text{
+    position: absolute;
+    top: 40%;
+    left: 10%;
+}
+h2{
+    color: #fff;
+    font-size: 2rem;
+}
+.black-text p{
+    color: #fff;
+}
+.short h2{
+    margin: 50px;
+    color: #000;
+}
+.pictures{
+    height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.box21{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 500px;
+    width: 20%;
+    border: 1px solid #ddd;
+    box-shadow: 4px 4px 10px rgba(0,0,0,0.2);
+}
+.img21{
+    background-size: cover;
+    height: 200px;
+    width: 100%;
+}
+.box21 h2{
+    padding-left: 1rem;
+    padding-top: 2rem;
+    color: #000;
+}
+.box21 p{
+    padding-left: 1rem;
+    padding-top: 2rem;
+    width: 90%;
+    text-wrap: wrap;
+}
+.box21 button{
+   margin-top:auto ;
+   width: 50%;
+   margin-left: 2rem;
+   border: none;
+   margin-bottom: 2rem;
+}
+.social{
+    margin: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1px;
+    margin-bottom: 1rem;
+}
+.social p{
+    width: 10%;
+}
+.iconsss{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1px;
+}
+.social i{
+    font-size: 20px;
+    cursor: pointer;
+}
+.end{
+    margin-right: 20px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.end button{
+    height: 40px;
+    width: 200px;
+    background-color: #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000;
+    border: none;
+    font-weight: bold;
+    font-size: 15px;
+}
+.end button:hover{
+    background-color: white;
+    border: 1px solid #ddd;
+    box-shadow: 4px 4px 10px rgba(0,0,0,0.2);
+}
+
+/**footer**/
+.new{
+    margin-top: 2rem;
+    height: 500px;
+    width: 100%;
+    background-color: #f3f0f0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.new ul{
+    width: 20%;
+}
+.new p{
+    color: #262626;
+    padding-bottom: none;
+    font-size: 12px;
+}
+.new p:hover{
+    text-decoration: 0.5px solid black underline;
+}
+
+.contact{
+    height: 70px;
+    background-color: #f3f0f0;
+    display: flex;
+    align-items: center;
+    justify-content:flex-end;
+}
+.contact p{
+    width: 10%;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 5px;
+    font-weight: lighter;
+    font-size: 12px;
+}
+.contact p:hover{
+    text-decoration: 0.5px solid black underline;
+}
